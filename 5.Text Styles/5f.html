@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text styles span</title>
+</head>
+<style>
+  h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 6px;
+  }
+
+  .currency {
+    font-size: small;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .number {
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2px;
+    margin-bottom: 5px;
+  }
+
+  .description {
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin-top: 2px;
+  }
+
+  .after {
+    color: rgba(255, 0, 0, 0.856);
+  }
+</style>
+
+<body>
+  <h2>
+    1,049.61
+    <span class="currency"> USD</span>
+  </h2>
+
+  <p class="number">
+    +18.05 (1.75%) today
+  </p>
+  <p class="description">
+    After hours 1.048.00 <span class="after">-1.61 (0.15%)</span>
+  </p>
+
+
+</body>
+
+</html>

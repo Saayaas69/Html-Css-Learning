@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>flexbox</title>
+  <style>
+    .container {
+      width: 350px;
+      height: 270px;
+      border-width: 1px;
+      border-style: solid;
+      border-color: rgba(128, 128, 128, 0.352);
+      box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.139);
+    }
+
+    .header {
+      font-family: Arial, Helvetica, sans-serif;
+      color: gray;
+      font-size: 12px;
+      font-weight: 550;
+      margin-top: 7px;
+      margin-left: 10px;
+    }
+
+    .flexbox {
+      display: flex;
+      flex-direction: row;
+      margin-top: 7px;
+    }
+
+    .flexbox-kakashi {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 0;
+    }
+
+    .flexbox-naruto {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .profile-picture {
+      width: 40px;
+      height: 40px;
+      border-radius: 20px;
+      margin-left: 10px;
+      margin-top: 20px;
+    }
+
+    .descriptions {
+      margin-left: 10px;
+    }
+
+    .heading {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      font-weight: bold;
+      margin-bottom: 3px;
+    }
+
+    .time-1 {
+      margin-left: 110px;
+      color: gray;
+      font-weight: 100;
+      font-size: smaller;
+    }
+
+    .time-2 {
+      margin-left: 174px;
+      color: gray;
+      font-weight: 100;
+      font-size: smaller;
+    }
+
+    .time-3 {
+      margin-left: 192px;
+      color: gray;
+      font-weight: 100;
+      font-size: smaller;
+    }
+
+    .offer {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 13px;
+      font-weight: bold;
+      margin-top: 2px;
+      margin-bottom: 3px;
+    }
+
+    .last-line {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 13px;
+      color: gray;
+      margin-top: 2px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      ALL INBOXES
+    </div>
+
+    <div class="flexbox">
+      <div class="image">
+        <img class="profile-picture" src="images/sasuke.webp">
+      </div>
+      <div class="descriptions">
+        <p class="heading">
+          Chewy Promotions
+          <span class="time-1">
+            4:58PM
+          </span>
+        </p>
+        <p class="offer">
+          Biggest sales of the year!
+        </p>
+        <p class="last-line">
+          Hey there! We're writing to tell you about our...
+        </p>
+      </div>
+    </div>
+
+    <div class="flexbox-kakashi">
+      <div class="image">
+        <img class="profile-picture" src="images/Kakashi-Naruto.webp">
+      </div>
+      <div class="descriptions">
+        <p class="heading">
+          Best Buy
+          <span class="time-2">
+            8:44AM
+          </span>
+        </p>
+        <p class="offer">
+          Your Best Buy eReceipt
+        </p>
+        <p class="last-line">
+          Thank you for shopping at Best Buy, here is...
+        </p>
+      </div>
+    </div>
+
+    <div class="flexbox-naruto">
+      <div class="image">
+        <img class="profile-picture" src="images/naruto.webp">
+      </div>
+      <div class="descriptions">
+        <p class="heading">
+          Netflix
+          <span class="time-3">
+            9:00PM
+          </span>
+        </p>
+        <p class="offer">
+          Here's what's coming soon to Netflix
+        </p>
+        <p class="last-line">
+          Brand new movies and shows, old favourites...
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

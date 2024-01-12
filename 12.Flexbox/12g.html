@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexbox</title>
+</head>
+<style>
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container-kakashi {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .profile-picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-right: 1px;
+  }
+
+  .profile-info {
+    width: 170px;
+  }
+
+  .name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 6px;
+    margin-bottom: 2px;
+
+  }
+
+  .character {
+    color: gray;
+    margin-top: 3px;
+    margin-left: 6px;
+    font-size: 16px;
+  }
+
+  button {
+    color: white;
+    background-color: rgba(0, 76, 255, 0.614);
+    border: none;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+</style>
+
+<body>
+  <div class="container">
+    <div class="container-kakashi">
+      <div class="kakashi">
+        <img class="profile-picture" src="images/Kakashi-Naruto.webp">
+      </div>
+      <div class="profile-info">
+        <p class="name">Kakashi</p>
+        <p class="character">copy ninja
+          <br> Popular
+        </p>
+      </div>
+
+      <div class="button-area">
+        <button>
+          Follow
+        </button>
+      </div>
+    </div>
+
+    <div class="container-kakashi">
+      <div class="Naruto">
+        <img class="profile-picture" src="images/naruto.webp">
+      </div>
+      <div class="profile-info">
+        <p class="name">Naruto</p>
+        <p class="character">hokage
+          <br> very popular
+        </p>
+      </div>
+      <div class="button-area">
+        <button>
+          Follow
+        </button>
+      </div>
+    </div>
+
+    <div class="container-kakashi">
+      <div class="Sasuke">
+        <img class="profile-picture" src="images/sasuke.webp">
+      </div>
+      <div class="profile-info">
+        <p class="name">Sasuke</p>
+        <p class="character">Sharingan
+          <br> Legend
+        </p>
+      </div>
+      <div class="button-area">
+        <button>
+          Follow
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+
+</body>
+
+</html>

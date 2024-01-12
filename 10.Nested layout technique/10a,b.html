@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nested layout technique</title>
+</head>
+<style>
+  .whole {
+    margin-left: 10px;
+    margin-top: 15px;
+  }
+
+  .horizontal-1 {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .profile-picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+
+  .horizontal-2 {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .profile-descriptions {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+  }
+
+  .name {
+    font-weight: bold;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    cursor: pointer;
+  }
+
+  .character {
+    font-size: 15px;
+    color: gray;
+    margin-bottom: 0;
+    margin-top: 4px;
+  }
+
+  .popularity {
+    font-size: 14px;
+    color: gray;
+    margin-top: 4px;
+  }
+
+  .horizontal-3 {
+    display: inline-block;
+  }
+
+  button {
+    color: white;
+    background-color: #1d9bf0;
+    border: none;
+    border-radius: 8px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 18px;
+    padding-left: 18px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+    vertical-align: middle;
+    margin-left: 70px;
+  }
+</style>
+
+<body>
+  <div class="whole">
+    <div class="horizontal-1">
+      <img class="profile-picture" src="images/Kakashi-Naruto.webp">
+    </div>
+    <div class="horizontal-2">
+      <div class="profile-descriptions">
+        <p class="name">
+          Kakashi
+        </p>
+        <p class="character">
+          copy ninja
+        </p>
+        <p class="popularity">
+          Famous
+        </p>
+      </div>
+    </div>
+    <div class="horizontal-3">
+      <button>
+        Follow
+      </button>
+    </div>
+
+    <div class="whole-naruto">
+      <div class="horizontal-1">
+        <img class="profile-picture" src="images/naruto.webp">
+      </div>
+      <div class="horizontal-2">
+        <div class="profile-descriptions">
+          <p class="name">
+            Naruto
+          </p>
+          <p class="character">
+            Hokage
+          </p>
+          <p class="popularity">
+            superior-ho
+          </p>
+        </div>
+      </div>
+      <div class="horizontal-3">
+        <button>
+          Follow
+        </button>
+      </div>
+
+      <div class="whole-sasuke">
+        <div class="horizontal-1">
+          <img class="profile-picture" src="images/sasuke.webp">
+        </div>
+        <div class="horizontal-2">
+          <div class="profile-descriptions">
+            <p class="name">
+              Sasuke
+            </p>
+            <p class="character">
+              Sharingan
+            </p>
+            <p class="popularity">
+              legend
+            </p>
+          </div>
+        </div>
+        <div class="horizontal-3">
+          <button>
+            Follow
+          </button>
+        </div>
+</body>
+
+</html>
