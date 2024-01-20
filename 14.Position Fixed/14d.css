@@ -1,18 +1,20 @@
-body{
+body {
   height: 3000px;
 }
-.right-sidebar{
+
+.right-sidebar {
   position: fixed;
-    top: 0;
-    right: 0;
-    width: 100px;
-    bottom: 0px;
-    background-color: green;
-    color: white;"
+  top: 0;
+  right: 0;
+  width: 100px;
+  bottom: 0px;
+  background-color: green;
+  color: white;
 }
-.element{
+
+.element {
   position: fixed;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   top: 0;
   bottom: 0;
   right: 0;
@@ -21,19 +23,22 @@ body{
   justify-content: center;
   align-items: center;
 }
-.modal{
+
+.modal {
   width: 300px;
   background-color: white;
   padding: 15px;
   border-radius: 5px;
 }
-.modal-title{
+
+.modal-title {
   font-family: Arial;
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 12px;
 }
-.modal-content{
+
+.modal-content {
   font-family: Arial;
   margin-bottom: 12px;
 }
